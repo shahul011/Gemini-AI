@@ -12,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  static const key = "AIzaSyDDkRwXHukKgh16n7BcehiRI-4rI6anQog";
+  static const key = "";
   TextEditingController properties = TextEditingController();
   List<Message> chatMessage = [];
   final model = GenerativeModel(model: 'gemini-pro', apiKey: key);
